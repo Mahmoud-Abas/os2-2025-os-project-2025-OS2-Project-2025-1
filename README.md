@@ -106,6 +106,10 @@ curl -X DELETE http://127.0.0.1:3070/todos/661fe0dbcf1aef8a5b5e0a1a
 
 ---
 
+⚠️ ⚠️ ⚠️  Important: You must use this URL to connect to MongoDB, don't use (localhost) replace it with ('mongo')
+```bash
+'mongodb://mongo:27017/todo-app'
+```
 ## 🐳 Docker Instructions
 
 You must create custom network to run it locally
